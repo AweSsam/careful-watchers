@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/myscreens.rpy", line 4: 'hover' is not a keyword argument or valid child for the hotspot statement.
-    hotspot(1337, 871, 146, 41) action Jump("newspaper2") hover "newspage1hov.png"
-                                                               ^
+File "game/script.rpy", line 155: expected 'label_name_declare' not found.
+    label 
+         ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 16 00:18:38 2022
+Sun Oct 16 15:13:13 2022

@@ -104,16 +104,15 @@ label moes:
     m "Alright Christie, where are our newspapers at?"
     c "Right here!"
 
-    scene desk
+    scene newspaperdesk
     with dissolve
 
     k "Well we only need the most recent one right? {w}Anything else is mostly going to be outdated."
     c "Oh, well in that case, this is the most recent one."
 
-    scene newspaperdesk
-    jump newspaper1
+    scene newspage1scene
     a "Nice! Let's look through and see if there's anything that we can investigate."
-
+    jump newspaper1
  
 label newspaper1:
     scene desk
@@ -128,7 +127,7 @@ label newspaper3:
     call screen thirdpage
 
 label ingredient:
-    scene desk 
+    scene newspage3scene
     k "I told you there was something fishy about her pancakes! {w}Even the newspapers are writing about her!"
     a "But that doesn't have anything to do with a mystery!"
     k "Umm... yes it does! {w}No one knows what she puts in them!"
@@ -136,16 +135,27 @@ label ingredient:
     k "Everyone! {w}The fate of the whole downtown mart is depending on it!"
     a "Ughhh... {w}fine."
     k "Yes!"
+    
+    jump ingredient2
 
 label deliveries:
-    scene desk 
+    scene newspage3scene 
     a "This could be the work of a real thief out there!"
     k "Really?"
     a "Definitely."
     c "I can see it. {w}{i}The case of the missing pies.{/i}"
+    jump deliveries2
 
 label thecat:
-    scene desk
+    scene newspage3scene
     m "Man... {w}I can't imagine ever losing {i}my cat.{/i} {w}We've got to help them."
     subtitle "A unanimous decision is made amongst our protagonists to go rescue the missing cat. {w}Erm. {w}I meant find."
+    jump thecat2
+
+label ingredient2:
+
+label deliveries2:
+
+label thecat2:
+
     
