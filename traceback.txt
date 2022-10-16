@@ -1,0 +1,44 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 112, in script
+    call screen firstpage
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+TypeError: 'str' object is not callable
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 112, in script
+    call screen firstpage
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 2232, in execute
+    self.call("execute")
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/exports.py", line 3181, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 4253, in interact_core
+    rv = renpy.display.focus.mouse_handler(ev, x, y)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/focus.py", line 572, in mouse_handler
+    return change_focus(new_focus, default=default)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/focus.py", line 528, in change_focus
+    rv = widget.focus(default=default)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/behavior.py", line 930, in focus
+    rv = run(self.hovered)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/behavior.py", line 329, in run
+    return action(*args, **kwargs)
+TypeError: 'str' object is not callable
+
+macOS-10.16-x86_64-i386-64bit x86_64
+Ren'Py 8.0.3.22090809
+Careful Watchers 1.0
+Sun Oct 16 00:18:16 2022
