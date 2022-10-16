@@ -55,10 +55,10 @@ label start:
     subtitle "Welcome to Esteredge, a small town where our protagonists reside."
 
     # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
+    # add a file (named either "classroom.png" or "classroom.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene classroom
     with dissolve
 
     # This shows a character sprite. A placeholder is used, but you can
