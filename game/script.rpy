@@ -17,10 +17,7 @@ define k_shout = Character("Kurt", what_size = 34)
 define k_shout = Character("Kurt", what_size = 34)
 define e = Character("Eli")
 define s = Character("Sandy")
-
-$ ing = False
-$ deliv = False
-$ cat = False
+define de = Character("Diner Employee")
 
 define subtitle = Character(
     None,
@@ -33,6 +30,7 @@ define subtitle = Character(
     what_layout='subtitle')
  
 default asad = 0
+default deannoyance = 0
 
 transform slightleft:
     xalign 0.25
@@ -132,6 +130,8 @@ label newspaper3:
 
 label ingredient:
     $ ing = True
+    $ deliv = False
+    $ cat = False
     scene newspage3scene
     k "I told you there was something fishy about her pancakes! {w}Even the newspapers are writing about her!"
     a "But that doesn't have anything to do with a mystery!"
@@ -144,7 +144,9 @@ label ingredient:
     jump map
 
 label deliveries:
+    $ ing = False
     $ deliv = True
+    $ cat = False
     scene newspage3scene 
     a "This could be the work of a real thief out there!"
     k "Really?"
@@ -154,6 +156,8 @@ label deliveries:
     jump map
 
 label thecat:
+    $ ing = False
+    $ deliv = False
     $ cat = True
     scene newspage3scene
     m "Man... {w}I can't imagine ever losing {i}my cat.{/i} {w}We've got to help them."
@@ -203,9 +207,102 @@ label map:
         m "The poor cat... Where could it be?"
         call screen mapbeg
 
-label marts1:
+label mapforward1:
     call screen mapbeg2
+
+label mapback1:
+    call screen mapbeg
+
+label agathasbeg:
+    scene agathasdiner
+
+    show AJ at slightleft
+    show kurt at slightright
+    show moe at right
+    show christie at left
+
+    if ing: 
+        k "Alright, let's get down to business. {w}We're at the scene of the crime already."
+        m "I don't think this qualifies as a crime?"
+        k "You're missing the point. {w}{i}*Visible Shuddering*{/i} {w}I can't believe I'm even here. {w}My worst enemy's place."
+        m "I'm pretty sure Ms. Agatha has no clue who you are."
+        c "Anyway, do you guys think we can get a hold of her? {w}What if she isn't here?"
+        a "She's always here!"
+
+        scene agathasdiner
+
+        show demployee
+
+        de "How can I help you? {w}Table for four?"
+        k "We're looking for Agatha, owner of Agatha's diner?"
+        de "Umm... {w} I'll call for her. {w} What's your relation to her?"
+        k "Ene-"
+        c "Haha, she means, we're just looking to ask some questions."
+        de "Alright, great, I'll be just one second."
+
+    if deliv:
+        a "Hmm... pies. {i}Missing pies.{/i}"
+        c "Does Agatha's diner even make pies?"
+        a "I don't think so."
+        c "Then why are we here?"
+        m "Should we leave?"
+        
+        menu:
+            "Yes.":
+                jump mapback1
+            "No.":
+                a "No, maybe we can still find something about the deliveries here. {w}Word {i}does{/i} travel fast in Esteredge."
+                
+                scene agathasdiner
+                
+                show demployee
+
+                de "How can I help you?"
+                c "Hi! Can we ask you a few questions about any missing deliveries?"
+                de "Missing deliveries? {w}We haven't had any missing deliveries here. {w} At least as of {i}now.{/i}"
+                c "Hmm."
+                menu:
+                    "What do you mean by that?":
+                        jump agathasbegmean
+                    "Well have you heard anything about any missing pies?":
+                        de "Hmm... yeah, I know Bake n' Take is having their run with those. {w} "           
+
+    if cat: 
+        m "My cat loves pancakes. {w}The cat {i}must{/i} be here."
+        a "Are cat's even allowed to eat pancakes?"
+        m "Probably? My cat's been fine."
+        a "Makes sense."
+
+label agathasbegmean:
+    scene agathasdiner
+
+    show demployee
+
+    de "Well, a few months ago there was someone stealing some of our to-go boxes."
+
+label kurtsbeg:
+    scene kurtsplace
+
+    show AJ at slightleft
+    show kurt at slightright
+    show moe at right
+    show christie at left
     
+label bakery:
+    scene bakery
+
+    show AJ at slightleft
+    show kurt at slightright
+    show moe at right
+    show christie at left
+
+label taco1:
+    scene tacotruck
+
+    show AJ at slightleft
+    show kurt at slightright
+    show moe at right
+    show christie at left
 
 
     
