@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 155: expected 'label_name_declare' not found.
-    label 
-         ^
+File "game/myscreens.rpy", line 27: 'action' is not a keyword argument or valid child for the imagemap statement.
+    action Notify("You can't access this place yet!")
+          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 16 15:13:13 2022
+Sun Oct 16 23:00:03 2022

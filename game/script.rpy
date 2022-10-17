@@ -18,6 +18,10 @@ define k_shout = Character("Kurt", what_size = 34)
 define e = Character("Eli")
 define s = Character("Sandy")
 
+$ ing = False
+$ deliv = False
+$ cat = False
+
 define subtitle = Character(
     None,
     window_background = None,
@@ -91,7 +95,7 @@ label start:
 
 label moes:
 
-    scene moes room 
+    scene moesplace 
 
     show AJ at slightleft
     show kurt at slightright
@@ -127,6 +131,7 @@ label newspaper3:
     call screen thirdpage
 
 label ingredient:
+    $ ing = True
     scene newspage3scene
     k "I told you there was something fishy about her pancakes! {w}Even the newspapers are writing about her!"
     a "But that doesn't have anything to do with a mystery!"
@@ -136,26 +141,71 @@ label ingredient:
     a "Ughhh... {w}fine."
     k "Yes!"
     
-    jump ingredient2
+    jump map
 
 label deliveries:
+    $ deliv = True
     scene newspage3scene 
     a "This could be the work of a real thief out there!"
     k "Really?"
     a "Definitely."
     c "I can see it. {w}{i}The case of the missing pies.{/i}"
-    jump deliveries2
+
+    jump map
 
 label thecat:
+    $ cat = True
     scene newspage3scene
     m "Man... {w}I can't imagine ever losing {i}my cat.{/i} {w}We've got to help them."
     subtitle "A unanimous decision is made amongst our protagonists to go rescue the missing cat. {w}Erm. {w}I meant find."
-    jump thecat2
 
-label ingredient2:
+    jump map
 
-label deliveries2:
+label map:
 
-label thecat2:
+    scene moesplace 
+
+    show AJ at slightleft
+    show kurt at slightright
+    show moe at right
+    show christie at left
+
+    a "This calls for map making! {w}The key to any detectives path paving, it's knowing where to go!"
+    m "We could also use our phones... {w} or {i}my{/i} phone, because we all know AJ doesn't have one.{w}...but I guess the physical map is more for effect than actual effective{i}ness.{/}"
+    a "I'm gonna pretend you didn't say that. {w}...But yeah."
+
+    scene black
+    with dissolve
+    
+    subtitle "Our protagonists go on to make the map. {w}It brings upon conflict within the team.{w} Kind of."
+    c "Ajay, you {i}need{/i} to stop writing in all caps. {w}Please. {w}It's stressing me out."
+    k "Christie's right. {w}You literally write like my dad."
+    a "Your dad must have good handwriting then. {w}{i}*sigh*{/i} {w}Alright fine, I know, I know."
+    c "I'm taking over this. {w}I clearly have the best handwriting."
+    k "Moe, can't you at {i}least{/i} help with drawing the trees?"
+    m "Fine."
+    subtitle "Christie takes over, fixing what she can of AJ's mess and adding her flair. {w}Moe's clouds on sticks add great personality to the piece as well."
+    subtitle "They finally finish the map."
+
+    scene map1
+
+    a "Alright, now where should we go?"
+    
+    if ing: 
+        k "We need to go to the mart and investigate Agatha's secret ingredient. {w} Let's go!"
+        call screen mapbeg
+    
+    if deliv:
+        a "We need to investigate the deliveries! Something about pies?"
+        call screen mapbeg
+
+    if cat: 
+        m "The poor cat... Where could it be?"
+        call screen mapbeg
+
+label marts1:
+    call screen mapbeg2
+    
+
 
     

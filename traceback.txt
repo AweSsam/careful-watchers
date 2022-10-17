@@ -1,70 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('images/classroom.png') at 0x7ff5c12d6250>:
-  File "game/script.rpy", line 78, in script
-    m "Yeah it fits that last category pretty well."
-OSError: Couldn't find file 'images/classroom.png'.
+While running game code:
+  File "game/script.rpy", line 194, in script
+    if ing:
+  File "game/script.rpy", line 194, in <module>
+    if ing:
+NameError: name 'ing' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 78, in script
-    m "Yeah it fits that last category pretty well."
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/character.py", line 1266, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/character.py", line 927, in do_display
-    display_say(who,
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/character.py", line 666, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 3912, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 2602, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 495, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/transform.py", line 747, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/image.py", line 506, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/image.py", line 309, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 627, in render
-    return cache.get(self, render=True)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 295, in get
-    surf = image.load()
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 720, in load
-    raise e
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 685, in load
-    filelike = renpy.loader.load(self.filename)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/classroom.png'.
+  File "game/script.rpy", line 194, in script
+    if ing:
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 194, in <module>
+    if ing:
+NameError: name 'ing' is not defined
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.0.3.22090809
 Careful Watchers 1.0
-Sun Oct 16 15:40:24 2022
+Sun Oct 16 23:13:25 2022

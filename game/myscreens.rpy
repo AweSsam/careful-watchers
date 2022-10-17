@@ -19,3 +19,16 @@ screen thirdpage():
         hotspot(931, 62, 604, 383) action Jump("ingredient")
         hotspot(922, 448, 611, 252) action Jump("deliveries")
         hotspot(925, 713, 614, 222) action Jump("thecat")
+
+screen mapbeg():
+    imagemap:
+        ground "map1.png"
+        hover "hovermap1.png"
+        hotspot(561, 919, 377, 81) action Jump("marts1")
+        hotspot(833, 576, 294, 168) action Notify("You can't access this yet!")
+        hotspot(1641, 764, 179, 130) action Notify("You can't access this yet!")
+        hotspot(241, 401, 149, 79) action Notify("You're already here!")
+        hotspot(545, 292, 70, 112) action Notify("You can't access this yet!")
+
+screen mapbeg2():
+    
