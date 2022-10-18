@@ -265,7 +265,16 @@ label agathasbeg:
                     "What do you mean by that?":
                         jump agathasbegmean
                     "Well have you heard anything about any missing pies?":
-                        de "Hmm... yeah, I know Bake n' Take is having their run with those. {w} "           
+                        de "Hmm... yeah, I know {b}Bake n' Take{/b} is having their run with those. {w}Sorry, but I don't really know much else about that, so I can't help you."
+                        show demployee watch
+                        de "And I'm not really on break right now, so I have to go."
+                        show deemployee confused
+                        de "What is this for again?"
+                        a "We're detectives, part of the Careful Watchers!"
+                        m "He means, we're investigating the missing pie deliveries in the downtown mart."
+                        de "Right. {w}The Careful Watchers huh?"
+                        jump agathasbegmean2
+
 
     if cat: 
         m "My cat loves pancakes. {w}The cat {i}must{/i} be here."
@@ -278,7 +287,48 @@ label agathasbegmean:
 
     show demployee
 
-    de "Well, a few months ago there was someone stealing some of our to-go boxes."
+    de "Well, a few months ago there was someone stealing some of our to-go boxes. {w} Specifically the pancakes..."
+    c "Wait, Agatha's does pancake deliveries?"
+    de "You bet. {w} We deliver pancakes, hashbrowns, bacon, fries, sausages, ham, our homemade maple syrup, crepes, and a whole lot more."
+    k "Of {i}course{/i} you do."
+    menu:
+        "Which pancakes?":
+            de "Uhh... I think the signature homemade ones. {w}Probably."
+            menu:
+                "Uh... are you sure?":
+                    $ deannoyance = 1
+                    show demployee ticked
+                    de "I think I am pretty sure. {w}I have to go now, since my coworkers will probably be looking for me."
+                    jump agathasbegmean2
+                "Anything else?":
+                    de "No, that was it."
+                    
+        "Did they ever catch who did it?":
+            de "No I don't think so. {w}Agatha put out the warning the next week of, and I guess the thief was scared pretty easily cause they never came back."
+            c "Oh wow..."
+            k "Do you think it had anything to do with the secret ingredient?"
+            show demployee frustrated
+            de "Uhh... I'm not sure I can answer any questions about that. {w}Actually, I have to go, I think a coworker is calling me. {w} Bye!"
+            $ deannoyance = 1
+            jump agathasbegmean2
+
+label agathasbegmean2:
+    scene agathasdiner
+    show AJ at slightleft
+    show kurt at slightright
+    show moe at right
+    show christie at left
+
+    if deannoyance = 1:
+        m "Well. {w}Wow. {w}That was abrupt."
+        k "And not in a good way. {w} I {i}told{/i} you something weird was happening here. {w}It has to be something to do with their secret ingredient!"
+        a "Which is {i}not{/i} what we're here for. {w}The deliveries Kurt, the deliveries."
+        k "Right..."
+    else:
+        a "Then we should probably go to Bake n' Take, right?"
+        m "Yeah, sounds like the best option."
+
+
 
 label kurtsbeg:
     scene kurtsplace

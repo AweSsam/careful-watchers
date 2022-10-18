@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/myscreens.rpy", line 27: 'action' is not a keyword argument or valid child for the imagemap statement.
-    action Notify("You can't access this place yet!")
-          ^
+File "game/script.rpy", line 305: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Anything else?"
+                    ^
+
+File "game/script.rpy", line 309: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
+    "Did they ever catch who did it?"
+                                     ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 16 23:00:03 2022
+Mon Oct 17 14:12:26 2022
