@@ -33,11 +33,11 @@ default asad = 0
 default deannoyance = 0
 
 transform slightleft:
-    xalign 0.25
+    xalign 0.15
     yalign 1.0
 
 transform slightright:
-    xalign 0.75
+    xalign 0.60
     yalign 1.0
 
 transform left:
@@ -67,7 +67,7 @@ label start:
     # replace it by adding a file named "AJ happy.png" to the images
     # directory.
 
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
@@ -95,7 +95,7 @@ label moes:
 
     scene moesplace 
 
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
@@ -169,7 +169,7 @@ label map:
 
     scene moesplace 
 
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
@@ -216,7 +216,7 @@ label mapback1:
 label agathasbeg:
     scene agathasdiner
 
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
@@ -333,7 +333,7 @@ label agathasbegmean2:
 label kurtsbeg:
     scene kurtsplace
 
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
@@ -341,7 +341,7 @@ label kurtsbeg:
 label bakery:
     scene bakery
 
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
@@ -349,7 +349,7 @@ label bakery:
 label taco1:
     scene tacotruck
 
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
