@@ -1,22 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 244, in script
-    jump mackback1
-ScriptError: could not find label 'mackback1'.
+  File "game/script.rpy", line 322, in script
+    if deannoyance = 1:
+SyntaxError: invalid syntax (script.rpy, line 322)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 244, in script
-    jump mackback1
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 1974, in execute
-    rv = renpy.game.script.lookup(target)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/script.py", line 927, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'mackback1'.
+  File "game/script.rpy", line 322, in script
+    if deannoyance = 1:
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/python.py", line 1090, in py_eval
+    code = py_compile(code, 'eval')
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/python.py", line 1027, in py_compile
+    raise e
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/python.py", line 979, in py_compile
+    raise orig_e
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/python.py", line 972, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (script.rpy, line 322)
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.0.3.22090809
 Careful Watchers 1.0
-Mon Oct 17 00:25:07 2022
+Tue Oct 18 15:06:36 2022

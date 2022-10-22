@@ -319,7 +319,7 @@ label agathasbegmean2:
     show moe at right
     show christie at left
 
-    if deannoyance = 1:
+    if deannoyance == 1:
         m "Well. {w}Wow. {w}That was abrupt."
         k "And not in a good way. {w} I {i}told{/i} you something weird was happening here. {w}It has to be something to do with their secret ingredient!"
         a "Which is {i}not{/i} what we're here for. {w}The deliveries Kurt, the deliveries."
