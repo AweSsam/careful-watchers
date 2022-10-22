@@ -33,11 +33,11 @@ default asad = 0
 default deannoyance = 0
 
 transform slightleft:
-    xalign 0.15
+    xalign 0.35
     yalign 1.0
 
 transform slightright:
-    xalign 0.60
+    xalign 0.65
     yalign 1.0
 
 transform left:
@@ -314,7 +314,7 @@ label agathasbegmean:
 
 label agathasbegmean2:
     scene agathasdiner
-    show AJ at slightleft
+    show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
