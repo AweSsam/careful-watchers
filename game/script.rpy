@@ -69,20 +69,24 @@ label start:
     # directory.
 
     show aj at slightleft
-    show kurt at slightright
-    show moe at right
-    show christie at left
 
     # These display lines of dialogue.
 
     a "How about... {w}{i}The Careful Watchers.{/i}"
+    subtitle "This is AJ, otherwise known as Ajay Sharma. {w}Someone always pronounces his name wrong, hence the nickname."
+    show kurt at slightright
     k "How about... {w}an award for the world's stupidest detective agency name?"
+    subtitle "Kurt. {w}Her last name? {w}No one knows."
     a "It's not dumb, it's clever. {w}Mysterious. {w}{i}Careful.{/i} {w}Unlike anything you've ever seen before."
+    show moe at right
     m "Yeah it fits that last category pretty well."
+    subtitle "Moe \"Makoa\" Carter. {w}Overwhelming fondness for cats and nothing else."
     a "Think about it! {w}Has there ever been anything weird or suspicious going on in Esteredge? {w}No."
     k "Which is why I don't understand why we're starting this agency in the first place? {w}Solving one thing doesn't mean we need to solve a thousand others."
     a "All good quests take a little bit of digging. {w}Maybe our town just needs some real careful watching if we ever really wanna bring justice to the table and uncover truth. {w}Right?"
     c "Hmm... {w}You're not wrong."
+    show christie at left
+    subtitle "Christie Castillo. {w}Her and Moe are the smartest ones in the group, if you couldn't tell."
     k "Uncover what?! {w}The truth about what Agatha really puts in her pancakes to get everyone to only go to her diner and no one elses in the whole downtown mart?"
     "{i}Her parents own a restaurant in the same downtown mart.{/i}"
     a "Uh... no. {w}That seems like a personal problem. {w}Or a street problem."
