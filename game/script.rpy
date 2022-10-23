@@ -19,6 +19,8 @@ define e = Character("Eli")
 define s = Character("Sandy")
 define de = Character("Diner Employee")
 define ag = Character("Agatha")
+define q = Character("???")
+define kmom = Character("Kurt's Mom")
 
 define subtitle = Character(
     None,
@@ -56,6 +58,7 @@ label start:
     scene black
 
     subtitle "Welcome to Esteredge, a small town where our protagonists reside."
+    subtitle "After our protagonists solved their very first mystery at their own school, they decide to start an agency. {w}Now the hardest part is deciding the name."
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "classroom.png" or "classroom.jpg") to the
@@ -84,8 +87,8 @@ label start:
     a "Think about it! {w}Has there ever been anything weird or suspicious going on in Esteredge? {w}No."
     k "Which is why I don't understand why we're starting this agency in the first place? {w}Solving one thing doesn't mean we need to solve a thousand others."
     a "All good quests take a little bit of digging. {w}Maybe our town just needs some real careful watching if we ever really wanna bring justice to the table and uncover truth. {w}Right?"
-    c "Hmm... {w}You're not wrong."
     show christie at left
+    c "Hmm... {w}You're not wrong."
     subtitle "Christie Castillo. {w}Her and Moe are the smartest ones in the group, if you couldn't tell."
     k "Uncover what?! {w}The truth about what Agatha really puts in her pancakes to get everyone to only go to her diner and no one elses in the whole downtown mart?"
     "{i}Her parents own a restaurant in the same downtown mart.{/i}"
@@ -282,9 +285,8 @@ label agathasbeg:
                         jump agathasbegmean
                     "Well have you heard anything about any missing pies?":
                         de "Hmm... yeah, I know {b}Bake n' Take{/b} is having their run with those. {w}Sorry, but I don't really know much else about that, so I can't help you."
-                        show demployee watch
                         de "And I'm not really on break right now, so I have to go."
-                        show deemployee confused
+                        show demployee
                         de "What is this for again?"
                         a "We're detectives, part of the Careful Watchers!"
                         m "He means, we're investigating the missing pie deliveries in the downtown mart."
@@ -332,7 +334,7 @@ label agathasbegmean:
             menu:
                 "Uh... are you sure?":
                     $ deannoyance = 1
-                    show demployee ticked
+                    show deticked
                     de "I think I am pretty sure. {w}I have to go now, since my coworkers will probably be looking for me."
                     jump agathasbegmean2
                 "Anything else?":
@@ -343,7 +345,7 @@ label agathasbegmean:
             de "No I don't think so. {w}Agatha put out the warning the next week of, and I guess the thief was scared pretty easily cause they never came back."
             c "Oh wow..."
             k "Do you think it had anything to do with the secret ingredient?"
-            show demployee frustrated
+            show deticked
             de "Uhh... I'm not sure I can answer any questions about that. {w}Actually, I have to go, I think a coworker is calling me. {w} Bye!"
             $ deannoyance = 1
             jump agathasbegmean2
@@ -368,34 +370,117 @@ label agathasbegmean2:
         c "Hmm... {w}but maybe the two events could be related right?"
 
     else:
-        a "Then we should probably go to Bake n' Take, right?"
-        m "Yeah, sounds like the best option."
+        a "Bake n' Take huh? {w}Should we go there?"
+        m "Probably."
 
 
 
 label kurtsbeg:
-    scene kurtsplace
+    scene kenempty
 
     show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
+
+    if ing:
+        show kurtopen at slightright
+        k "Alright, I don't know why we're here! {w}I told you guys that my family knows nothing about the scheming Agatha and what she puts in her pancakes!"
+        c "Then should we leave?"
+        menu:
+            "Yes.":
+                a "Fine."
+                jump mapback1
+            "No.":
+                a "No, maybe we can still gather information."
+                scene kensmile
+                q "Hi, how can I help-"
+                scene kenhappy
+                kmom "Oh hey kids! {w}How's your detective agency going?"
+                k "Pretty boring mom. {w}We're trying to find out what Agatha puts in her pancakes..."
+                c "So we were wondering if you knew, Mrs. Nguyen! {w}Or you knew something about it?"
+                scene kenmad
+                kmom "Oh I could go on and on about this. {w}Just the other day I saw Agatha at the gorcery store, and we struck up conversation, because of social obligation of course, and she had the audacity to say that she would never tell me what she puts in her pancakes!"
+                c "Oh! {w}So no one really knows."
+                scene kencon
+                kmom "Well no... even if I did I don't think I would go around telling everyone because of respect. {w}Although she's a little stingy about her profits, she does make good pancakes... {w}And it's not like I would steal her recipe and make it!"
+                kmom "We're a pho restaurant, not a pancake restaurant."
+                k "What!? Mom, what if her secret ingredient was like tasty-{w}tasty poison or something?! {w} It's social obligation to know at that point!!!"
+                kmom "If it was tasty poison, half the town would be dead by now Kurt."
+                m "Exactly."
+                menu:
+                    "Wait, then if you wouldn't tell anyone her secret ingredient even if you knew, why would you want to know anyway?":
+                        $ friend = True
+                        kmom "Actually...{w} me and Agatha {b}used to be friends{/b} back in the day."
+                        k "No way! {w}You never told me this!"
+                        kmom "It was in college, and we both had our dreams of starting our own restaurants."
+                        scene kenmad
+                        kmom "Obviously our dreams both came true, but she somehow got the idea that I wanted to start a pancake place as well! {w}As if I would ever start a diner when I could share my own other food with the world!"
+                        scene kenmad2
+                        kmom "She didn't like the way I said that though, as if apparently the idea of a diner was horrible! {w}But I never even said that!"
+                        a "Oh wow. {i}There seems to be a lot of history here.{/i}"
+                        scene kencon 
+                        kmom "Yeah. {w}And that's why we never talk. {w}Ever."
+                        k "I can't believe you kept this from me!"
+                        kmom "I didn't keep it from you Kurt, you just never asked."
+                        scene kenhappy
+                        kmom "But anyway kids, before you go, you should eat dinner!"
+                        m "Oh no, we wouldn't want to intrude Mrs. Nguyen."
+                        scene kenmad
+                        kmom "Nonsense! {w}Kurt was the one who dashed off before telling me that you kids were coming over later today! {w}Now you guys are hungry!"
+                        scene kenmad2
+                        "{i}They never said they were hungry.{/i}"
+                        k "How is that my fault mom?!"
+                        kmom "Just sit down and eat!"
+                        scene black
+                        subtitle "Out protagonists sit and eat after being forcefully made to eat until their stomachs are full by Kurt's mother."
+                    "Well, do you know anyone who knows what her secret ingredient might be?":
+                        kmom "Hmm... I'm not sure. Maybe {b}Emily{/b} at Bake n' Take knows. {w}She makes plenty of sweet stuff too, and pancakes technically fall under that category?"
+                        scene kenhappy
+                        kmom "But before you kids go, you should eat dinner!"
+                        m "Oh no, we wouldn't want to intrude Mrs. Nguyen."
+                        scene kenmad
+                        kmom "Nonsense! {w}Kurt was the one who dashed off before telling me that you kids were coming over later today! {w}Now you guys are hungry!"
+                        scene kenmad2
+                        "{i}They never said they were hungry.{/i}"
+                        k "How is that my fault mom?!"
+                        kmom "Just sit down and eat!"
+                        scene black
+                        subtitle "Out protagonists sit and eat after being forcefully made to eat until their stomachs are full by Kurt's mother."
+
+        
+
+    #if deliv:
+
+    #if cat:
+
     
 label bakery:
-    scene bakery
+    scene bakeempty
 
     show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
+
+    #if ing:
+
+    #if deliv:
+
+    #if cat:
+
 
 label taco1:
-    scene tacotruck
+    scene tacomorning
 
     show aj at slightleft
     show kurt at slightright
     show moe at right
     show christie at left
 
+    #if ing:
 
-    
+    #if deliv:
+
+    #if cat:
+        

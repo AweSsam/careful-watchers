@@ -2,13 +2,37 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 305: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Anything else?"
-                    ^
+File "game/script.rpy", line 453: if statement expects a non-empty block.
+    if deliv:
+             ^
 
-File "game/script.rpy", line 309: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Did they ever catch who did it?"
-                                     ^
+File "game/script.rpy", line 455: if statement expects a non-empty block.
+    if cat:
+           ^
+
+File "game/script.rpy", line 466: if statement expects a non-empty block.
+    if ing:
+           ^
+
+File "game/script.rpy", line 468: if statement expects a non-empty block.
+    if deliv:
+             ^
+
+File "game/script.rpy", line 470: if statement expects a non-empty block.
+    if cat:
+           ^
+
+File "game/script.rpy", line 481: if statement expects a non-empty block.
+    if ing:
+           ^
+
+File "game/script.rpy", line 483: if statement expects a non-empty block.
+    if deliv:
+             ^
+
+File "game/script.rpy", line 485: if statement expects a non-empty block.
+    if cat:
+           ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Oct 17 14:12:26 2022
+Sun Oct 23 19:19:13 2022
