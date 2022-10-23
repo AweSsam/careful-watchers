@@ -18,6 +18,7 @@ define k_shout = Character("Kurt", what_size = 34)
 define e = Character("Eli")
 define s = Character("Sandy")
 define de = Character("Diner Employee")
+define ag = Character("Agatha")
 
 define subtitle = Character(
     None,
@@ -238,7 +239,18 @@ label agathasbeg:
         de "Umm... {w} I'll call for her. {w} What's your relation to her?"
         k "Ene-"
         c "Haha, she means, we're just looking to ask some questions."
-        de "Alright, great, I'll be just one second."
+        de "Hmm...{w} ok.{w} I'll be just one second."
+
+        scene agathasdiner
+
+        show agatha
+
+        a "Hello? {w} You said you were looking to ask some questions?"
+        c "Yes, thank you for coming to meet us!"
+
+
+
+
 
     if deliv:
         a "Hmm... pies. {i}Missing pies.{/i}"
@@ -282,6 +294,25 @@ label agathasbeg:
         m "Probably? My cat's been fine."
         a "Makes sense."
 
+        scene agathasdiner
+
+        show demployee
+
+        de "How can I help you?"
+        c "Hi! {w}We were wondering if you had seen a cat somewhere nearby?"
+        a "Gray fur, green-yellow eyes? {w}Also, kinda chub?" 
+        de "Oh, sorry, no idea. {w}I barely go outside as is, I'm either waiting on tables all day! {w}The only cats I see are in those cat videos online {w}Sorry to disappoint you."
+        
+        scene agathasdiner
+        show aj at slightleft
+        show kurt at slightright
+        show moe at right
+        show christie at left
+
+        c "Well that's unfortunate."
+        m "I can't believe he wasn't here! {w}"
+
+
 label agathasbegmean:
     scene agathasdiner
 
@@ -292,7 +323,7 @@ label agathasbegmean:
     de "You bet. {w} We deliver pancakes, hashbrowns, bacon, fries, sausages, ham, our homemade maple syrup, crepes, and a whole lot more."
     k "Of {i}course{/i} you do."
     menu:
-        "Which pancakes?":
+        "Which pancakes were stolen?":
             de "Uhh... I think the signature homemade ones. {w}Probably."
             menu:
                 "Uh... are you sure?":
@@ -301,6 +332,7 @@ label agathasbegmean:
                     de "I think I am pretty sure. {w}I have to go now, since my coworkers will probably be looking for me."
                     jump agathasbegmean2
                 "Anything else?":
+                    $ deannoyance = 2
                     de "No, that was it."
                     
         "Did they ever catch who did it?":
@@ -324,6 +356,13 @@ label agathasbegmean2:
         k "And not in a good way. {w} I {i}told{/i} you something weird was happening here. {w}It has to be something to do with their secret ingredient!"
         a "Which is {i}not{/i} what we're here for. {w}The deliveries Kurt, the deliveries."
         k "Right..."
+        c "The only other place that sells anything to do with making pies is probably {b}Bake n' Take.{/b} {w}Wanna try our luck there?"
+        m "Yeah, that sounds like a good idea."
+    if deannoyance == 2:
+        k "Well we didn't learn anything about any pie deliveries! {w}Only that Agatha's has had their signature homemeade pancakes stolen before too. {w}Of course they would only ever talk about themselves and their own problems!"
+        m "Uhh... {w}I'm not sure if that has anything to do with self-obsession but okay."
+        c "Hmm... {w}but maybe the two events could be related right?"
+
     else:
         a "Then we should probably go to Bake n' Take, right?"
         m "Yeah, sounds like the best option."
