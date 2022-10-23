@@ -215,7 +215,7 @@ label mapback1:
     call screen mapbeg
 
 label agathasbeg:
-    scene agathasdiner
+    scene dinerafternoon
 
     show aj at slightleft
     show kurt at slightright
@@ -230,7 +230,7 @@ label agathasbeg:
         c "Anyway, do you guys think we can get a hold of her? {w}What if she isn't here?"
         a "She's always here!"
 
-        scene agathasdiner
+        scene dinerafternoon
 
         show demployee
 
@@ -241,7 +241,7 @@ label agathasbeg:
         c "Haha, she means, we're just looking to ask some questions."
         de "Hmm...{w} ok.{w} I'll be just one second."
 
-        scene agathasdiner
+        scene dinerafternoon
 
         show agatha
 
@@ -265,7 +265,7 @@ label agathasbeg:
             "No.":
                 a "No, maybe we can still find something about the deliveries here. {w}Word {i}does{/i} travel fast in Esteredge."
                 
-                scene agathasdiner
+                scene dinerafternoon
                 
                 show demployee
 
@@ -294,7 +294,7 @@ label agathasbeg:
         m "Probably? My cat's been fine."
         a "Makes sense."
 
-        scene agathasdiner
+        scene dinerafternoon
 
         show demployee
 
@@ -303,7 +303,7 @@ label agathasbeg:
         a "Gray fur, green-yellow eyes? {w}Also, kinda chub?" 
         de "Oh, sorry, no idea. {w}I barely go outside as is, I'm either waiting on tables all day! {w}The only cats I see are in those cat videos online {w}Sorry to disappoint you."
         
-        scene agathasdiner
+        scene dinerafternoon
         show aj at slightleft
         show kurt at slightright
         show moe at right
@@ -314,7 +314,7 @@ label agathasbeg:
 
 
 label agathasbegmean:
-    scene agathasdiner
+    scene dinerafternoon
 
     show demployee
 
@@ -345,7 +345,7 @@ label agathasbegmean:
             jump agathasbegmean2
 
 label agathasbegmean2:
-    scene agathasdiner
+    scene dinerafternoon
     show aj at slightleft
     show kurt at slightright
     show moe at right
