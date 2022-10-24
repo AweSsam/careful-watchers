@@ -1,28 +1,28 @@
-Sun Oct 23 18:16:50 2022
+Mon Oct 24 02:02:10 2022
 macOS-10.16-x86_64-i386-64bit
 Ren'Py 8.0.3.22090809
  
 
 Bootstrap to the start of init.init took 0.05s
-Early init took 0.00s
+Early init took 0.01s
 Loader init took 0.01s
 Loading error handling took 0.03s
-Loading script took 0.19s
-Loading save slot metadata. took 0.01s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
 Running init code took 0.05s
-Loading analysis data took 0.01s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
+Initial gc. took 0.01s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.03s
 Analyze screens took 0.00s
@@ -32,7 +32,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.18s
+Interface start took 0.20s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -45,12 +45,12 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 313.72s
+Bootstrap to the start of init.init took 148.77s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.03s
-Loading script took 0.20s
-Loading save slot metadata. took 0.01s
+Loading script took 0.40s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
 Running init code took 0.03s
@@ -61,92 +61,6 @@ Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
 Dump and make backups. took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 351.81s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 370.22s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.04s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
@@ -173,113 +87,19 @@ Version: b'2.1 Metal - 76.3'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
 Resetting cache.
-Bootstrap to the start of init.init took 890.46s
+Bootstrap to the start of init.init took 223.23s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
+Loading script took 0.26s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
+
+File "game/script.rpy", line 1563: reached end of line when expecting ':'.
+    if 
+       ^
 DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 285, in script
-    show demployee watch
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 1408, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 1371, in show_imspec
-    renpy.config.show(name,
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/exports.py", line 686, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/image.py", line 414, in find_target
-    self.target = target._duplicate(a)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 397, in _duplicate
-    args.extraneous()
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 265, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'demployee' does not accept attributes 'watch'.
-
-While running game code:
-  File "game/script.rpy", line 285, in script
-    show demployee watch
-Exception: Image 'demployee' does not accept attributes 'watch'.
-Resetting cache.
-Bootstrap to the start of init.init took 965.06s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
 Interface start took 0.09s
 
 Initializing gl2 renderer:
@@ -290,61 +110,21 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 285, in script
-    show demployee watch
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 1408, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 1371, in show_imspec
-    renpy.config.show(name,
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/exports.py", line 686, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/image.py", line 414, in find_target
-    self.target = target._duplicate(a)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 397, in _duplicate
-    args.extraneous()
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 265, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'demployee' does not accept attributes 'watch'.
-
-While running game code:
-  File "game/script.rpy", line 285, in script
-    show demployee watch
-Exception: Image 'demployee' does not accept attributes 'watch'.
 Resetting cache.
-Bootstrap to the start of init.init took 1004.54s
+Bootstrap to the start of init.init took 224.97s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.14s
+Loading script took 0.24s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
+
+File "game/script.rpy", line 1563: reached end of line when expecting ':'.
+    if 
+       ^
 DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
 Interface start took 0.08s
 
 Initializing gl2 renderer:
@@ -355,122 +135,95 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 1015.43s
+Bootstrap to the start of init.init took 238.72s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.14s
+Loading script took 0.11s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
 Running init code took 0.04s
-Loading analysis data took 0.01s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
 Dump and make backups. took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
+Initial gc. took 0.02s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.03s
 Analyze screens took 0.00s
-Prepare screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
 
-Full traceback:
-  File "game/script.rpy", line 84, in script
-    a "Think about it! {w}Has there ever been anything weird or suspicious going on in Esteredge? {w}No."
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/character.py", line 1266, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/character.py", line 927, in do_display
-    display_say(who,
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/character.py", line 666, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 3912, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/core.py", line 2602, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 495, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/transform.py", line 747, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/image.py", line 506, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/image.py", line 309, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 627, in render
-    return cache.get(self, render=True)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 295, in get
-    surf = image.load()
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 720, in load
-    raise e
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/display/im.py", line 685, in load
-    filelike = renpy.loader.load(self.filename)
-  File "/Users/sam/renpy-8.0.3-sdk/renpy/loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/classroom.png'.
-
-While loading <renpy.display.im.Image object ('images/classroom.png') at 0x7fa0387c9460>:
-  File "game/script.rpy", line 84, in script
-    a "Think about it! {w}Has there ever been anything weird or suspicious going on in Esteredge? {w}No."
-OSError: Couldn't find file 'images/classroom.png'.
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 1143.11s
+Bootstrap to the start of init.init took 260.16s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.33s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 266.33s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
@@ -499,135 +252,6 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1224.91s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1235.79s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1251.17s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
 Interface start took 0.07s
 
 Initializing gl2 renderer:
@@ -638,2701 +262,66 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 1455.15s
+Bootstrap to the start of init.init took 304.48s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1530.89s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1574.93s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata. took 0.01s
+Loading script took 0.34s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
 Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1742.62s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 387: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 389: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 400: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 402: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 404: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 415: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 417: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 419: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1774.45s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 388: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 390: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 401: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 403: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 405: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 416: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 418: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 420: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1863.49s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 396: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 398: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 409: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 411: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 413: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 424: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 426: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 428: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1893.80s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 398: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 400: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 411: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 413: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 415: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 426: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 428: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 430: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1945.23s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 401: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 403: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 414: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 416: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 418: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 429: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1957.47s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 401: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 403: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 414: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 416: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 418: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 429: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2361.28s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 410: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 412: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 423: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 425: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 427: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 438: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 440: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 442: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2441.29s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 411: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 413: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 424: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 426: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 428: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 439: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 441: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 443: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2545.40s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 414: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 416: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 427: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 429: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 442: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 444: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2557.68s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 414: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 416: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 427: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 429: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 442: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 444: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2607.57s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 411: Menu does not contain any choices.
-    menu:
-         ^
-
-File "game/script.rpy", line 416: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 418: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 429: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 444: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2646.95s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 411: Menu does not contain any choices.
-    menu:
-         ^
-
-File "game/script.rpy", line 416: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 418: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 429: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 444: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2728.49s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 419: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 421: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 432: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 434: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 436: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 447: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 449: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 451: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2742.23s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 420: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 422: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 435: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 437: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 450: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 452: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2801.17s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 420: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 422: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 435: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 437: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 450: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 452: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2813.39s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 421: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 423: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 434: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 436: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 438: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 449: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 451: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 453: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2845.22s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 420: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 422: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 435: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 437: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 450: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 452: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2925.26s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 422: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 424: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 435: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 437: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 439: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 450: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 452: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 454: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3068.56s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 429: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 442: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 444: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 457: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 459: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 461: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3116.95s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 444: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 459: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 461: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 463: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3133.73s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 431: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 444: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 459: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 461: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 463: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3439.69s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 435: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 450: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 461: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 463: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 465: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3464.00s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 433: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 435: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 446: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 450: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 461: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 463: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 465: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3506.35s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 434: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 436: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 447: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 449: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 451: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 462: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 464: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 466: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3523.11s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 435: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 437: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 448: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 450: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 452: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 463: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 465: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 467: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3645.32s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 438: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 440: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 451: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 453: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 455: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 466: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 468: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 470: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3737.39s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 453: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 455: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 466: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 468: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 470: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 481: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 483: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 485: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3743.61s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 453: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 455: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 466: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 468: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 470: if statement expects a non-empty block.
-    if cat:
-           ^
-
-File "game/script.rpy", line 481: if statement expects a non-empty block.
-    if ing:
-           ^
-
-File "game/script.rpy", line 483: if statement expects a non-empty block.
-    if deliv:
-             ^
-
-File "game/script.rpy", line 485: if statement expects a non-empty block.
-    if cat:
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3785.99s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3806.04s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3808.98s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.08s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init took 3930.59s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4056.04s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4133.21s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4334.05s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4350.86s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4418.97s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4452.38s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4458.63s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4529.72s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4600.86s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4613.16s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4620.89s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4636.16s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4642.41s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4709.00s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4730.36s
-Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4781.91s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4828.93s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 237: expected statement.
-    visits += 1
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.18s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4842.67s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.04s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-Creating interface object took 0.02s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4844.42s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.08s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4861.25s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4872.01s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.08s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5018.50s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.20s
-Loading save slot metadata. took 0.10s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.13s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 309.31s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.31s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
@@ -3343,56 +332,13 @@ Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5100.50s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.08s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -3402,15 +348,15 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 5105.34s
+Bootstrap to the start of init.init took 356.47s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
+Loading script took 0.34s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
 Running init code took 0.03s
@@ -3445,18 +391,18 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 5169.16s
+Bootstrap to the start of init.init took 368.80s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.16s
+Loading script took 0.31s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -3478,7 +424,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.10s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -3488,21 +434,22 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 5170.98s
+Bootstrap to the start of init.init took 387.21s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.08s
-Loading save slot metadata. took 0.01s
+Loading script took 0.33s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
 Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
 Dump and make backups. took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -3510,17 +457,110 @@ Initial gc. took 0.03s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 396.58s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.31s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.04s
 Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 495.45s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.33s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.10s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -3530,10 +570,96 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 5210.52s
+Bootstrap to the start of init.init took 501.69s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 509.44s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.30s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 513.69s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
@@ -3541,7 +667,7 @@ Loading script took 0.10s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -3562,7 +688,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.10s
+Interface start took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -3572,25 +698,212 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 564.21s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 765.83s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.35s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 1491, in script
+    w "Are you assuming I'm {i}old{/i}???"
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/sam/renpy-8.0.3-sdk/renpy/ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'w' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 1491, in script
+    w "Are you assuming I'm {i}old{/i}???"
+Exception: Sayer 'w' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 776.68s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.31s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 817.77s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.30s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 76.3'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1338, 764) drawable=(2676, 1528)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
 Resetting cache.
-Bootstrap to the start of init.init took 5253.08s
+Bootstrap to the start of init.init took 914.72s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata. took 0.01s
+Loading script took 0.13s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -3611,7 +924,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.09s
+Interface start took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -3621,147 +934,18 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 5259.35s
+Bootstrap to the start of init.init took 1086.79s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
+Loading script took 0.34s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
 Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5270.13s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5344.27s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5392.73s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -3783,7 +967,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.09s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -3793,366 +977,12 @@ Vendor: "b'Apple'"
 Renderer: b'Apple M1'
 Version: b'2.1 Metal - 76.3'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
+Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5522.77s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5541.09s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5560.92s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 497: if statement expects a non-empty block.
-    if tacovisit:
-                 ^
-
-File "game/script.rpy", line 499: expected statement.
-    else:
-        ^
-DPI scale factor: 1.000000
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5576.19s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 499: else clause expects a non-empty block.
-    else:
-         ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5585.41s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 500: else clause expects a non-empty block.
-    else:
-         ^
-DPI scale factor: 1.000000
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5597.68s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 500: else clause expects a non-empty block.
-    else:
-         ^
-DPI scale factor: 1.000000
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5611.44s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5634.31s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5636.03s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.08s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.03s
 Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 5657.41s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Faled to initialize steam: OSError("dlopen(/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib, 0x0006): tried: '/Users/sam/renpy-8.0.3-sdk/lib/py3-mac-x86_64/libsteam_api.dylib' (no such file), '/usr/local/lib/libsteam_api.dylib' (no such file), '/usr/lib/libsteam_api.dylib' (no such file)")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/Users/sam/Library/RenPy/backups/Careful Watchers':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 76.3'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
-Maximum texture size: 4096x4096

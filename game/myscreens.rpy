@@ -42,3 +42,7 @@ screen mapbeg2():
         hotspot(272, 636, 210, 144) action Notify("You can't access this yet!") #supercenter
         hotspot(1271, 32, 185, 133) action Jump("taco1") #taco 2go
         hotspot(253, 12, 309, 61) action Jump("mapback1")
+
+screen endscreen():
+    imagemap:
+        ground "endscreen.png"

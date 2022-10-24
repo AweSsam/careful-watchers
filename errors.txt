@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 500: else clause expects a non-empty block.
-    else:
-         ^
+File "game/script.rpy", line 1563: reached end of line when expecting ':'.
+    if 
+       ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 23 19:50:07 2022
+Mon Oct 24 02:05:55 2022
