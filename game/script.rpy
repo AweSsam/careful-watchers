@@ -21,6 +21,8 @@ define de = Character("Diner Employee")
 define ag = Character("Agatha")
 define q = Character("???")
 define kmom = Character("Kurt's Mom")
+define j = Character("Jose")
+define e = Character("Emily")
 
 define subtitle = Character(
     None,
@@ -34,6 +36,7 @@ define subtitle = Character(
  
 default asad = 0
 default deannoyance = 0
+default visits = 1
 
 transform slightleft:
     xalign 0.35
@@ -55,6 +58,11 @@ transform right:
 
 label start:
 
+    $ agathasbegvisit = False
+    $ kenvisit = False
+    $ tacovisit = False
+    $ bakevisit = False
+
     scene black
 
     subtitle "Welcome to Esteredge, a small town where our protagonists reside."
@@ -72,22 +80,26 @@ label start:
     # directory.
 
     show aj at slightleft
+    with dissolve
 
     # These display lines of dialogue.
 
     a "How about... {w}{i}The Careful Watchers.{/i}"
     subtitle "This is AJ, otherwise known as Ajay Sharma. {w}Someone always pronounces his name wrong, hence the nickname."
     show kurt at slightright
+    with dissolve
     k "How about... {w}an award for the world's stupidest detective agency name?"
     subtitle "Kurt. {w}Her last name? {w}No one knows."
     a "It's not dumb, it's clever. {w}Mysterious. {w}{i}Careful.{/i} {w}Unlike anything you've ever seen before."
     show moe at right
+    with dissolve
     m "Yeah it fits that last category pretty well."
     subtitle "Moe \"Makoa\" Carter. {w}Overwhelming fondness for cats and nothing else."
     a "Think about it! {w}Has there ever been anything weird or suspicious going on in Esteredge? {w}No."
     k "Which is why I don't understand why we're starting this agency in the first place? {w}Solving one thing doesn't mean we need to solve a thousand others."
     a "All good quests take a little bit of digging. {w}Maybe our town just needs some real careful watching if we ever really wanna bring justice to the table and uncover truth. {w}Right?"
     show christie at left
+    with dissolve
     c "Hmm... {w}You're not wrong."
     subtitle "Christie Castillo. {w}Her and Moe are the smartest ones in the group, if you couldn't tell."
     k "Uncover what?! {w}The truth about what Agatha really puts in her pancakes to get everyone to only go to her diner and no one elses in the whole downtown mart?"
@@ -228,6 +240,10 @@ label agathasbeg:
     show kurt at slightright
     show moe at right
     show christie at left
+
+    $ agathasbegvisit = True
+    if agathasbegvisit:
+        $ visits += 1
 
     if ing: 
         k "Alright, let's get down to business. {w}We're at the scene of the crime already."
@@ -478,9 +494,45 @@ label taco1:
     show moe at right
     show christie at left
 
-    #if ing:
+    if tacovisit:
+        show ajdropopen at slightleft
+        a "Here again? {w}Alright then."
+    else:
+        $ tacovisit = True
+        if tacovisit:
+            $ visits += 1
+        if ing:
+            show ajdropopen at slightleft
+            a "Alright, this better be worth it. {w}We came all the way to school just to find out what Agatha puts in her pancakes!"
+            show kurtleftmad at slightright
+            k "A necessary decision! {w}We would make the papers if we really found out what she put in her pancakes!"
+            show ajcaught2 at slightleft
+            a "Really?"
+            show ajhappy at slightleft
+            a "Then i'm totally on board! {w}Lead the way kurt!"
+            show cdrop at left
+            show moedrop at right
+            scene josemono
+            q "Hello, how can I help you-"
+            scene josehappy
+            q "-Oh heya Christie! {w}Como estas? {w}How are the parents?"
+            scene josesmile
+            c "Estamos bien! {w}How are you Mr. Jose?"
+            scene josehappy
+            j "Great! {w}Haha, tell your mom I said hi, and that I'll be needing more of her cooking in the future!"
+            scene josesmile
+            c "Will do Mr. Jose!"
+            scene josehappy
+            j "So what can I do for you today? {w}Tacos? {w}On the house for you and your friends here!"
+            scene josesmile
+            a "Oh wow, we'll take you up on that Mr. Jose!"
+            k "What we're {i}actually{/i} here for is about Agatha's secret ingredient!"
+            scene josedrop
+            j "Hmm... {w}Her secret ingredient huh? {w}Honestly I haven't heard much about it... she's pretty tight-lipped about it"
+            
 
-    #if deliv:
 
-    #if cat:
-        
+        #if deliv:
+
+        #if cat:
+            
